@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    h2{color: blue;}
+    h5{font-size: large;
+    background-color: yellow;
+    }
+    a[href*="http://estudiante.com"]{
+      color: rgb(226, 43, 43);
+    }
+    h1:first-letter{
+      text-transform:uppercase;
+      color: brown;
+      font-size: 3em;
+    }
+  </style>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>my-site</title>
@@ -8,15 +22,15 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
-<body>
+<body style="background-color:aqua ;">
     <h1>Hola mundo</h1>
     <h2>Hola mundo</h2>
     <h3>Hola mundo</h3>
     <h4>Hola mundo</h4>
     <h5>Hola mundo</h5>
-    <h6>Hola mundo</h6>
+    <h6 id="primero">Hola mundo</h6>
     <p>mucho gusto</p>
-    <p>Saludos desde casa</p>
+    <p> Saludos desde casa</p>
     <i>soy italica</i>
     <p>
         soy un texto normal
@@ -30,6 +44,7 @@
     <hr>division linea</hr>
     <p>
         cualquier cosa
+        
     <small>Contenido secundario</small>
 </p>
 <p>
@@ -58,5 +73,11 @@
       <td>Mcflurry</td>
     </tr>
   </table>
+<ul>
+  <li><a href="http://gmail.com">gmail.com</a></li>
+  <li><a href="http://estudiante.com">estudiante.com</a></li>
+  <li><a href="http://prueba.com">prueba.com</a></li>
+  <li><a href="http://gmail.estudiante.com">gmail.estudiante.com</a></li>
+</ul>
 </body>
 </html>
